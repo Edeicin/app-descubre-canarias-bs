@@ -22,4 +22,4 @@ jobs:
         script: |
           cd /var/www/html
           git pull
-          chown -R ubuntu:www-data /var/www/html
+          sudo chown -R ubuntu:www-data /var/www/html
